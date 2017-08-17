@@ -15,12 +15,12 @@ ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManif
 		INJECTED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.RECORD_AUDIO
 ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:6:5-70
-MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:9:5-71
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/.android/build-cache/c23f820b582fd09dd8a52628ea1336fa5d34d042/output/AndroidManifest.xml:9:5-71
 	android:name
 		ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:6:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:7:5-80
-MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:10:5-81
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/.android/build-cache/c23f820b582fd09dd8a52628ea1336fa5d34d042/output/AndroidManifest.xml:10:5-81
 	android:name
 		ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.WAKE_LOCK
@@ -37,21 +37,21 @@ ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManif
 		ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:10:22-76
 application
 ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:12:5-27:19
-MERGED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/AndroidAudioRecorder/lib/unspecified/AndroidManifest.xml:11:5-16:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:13:5-17:19
+MERGED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/bundles/default/AndroidManifest.xml:11:5-16:19
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/.android/build-cache/c23f820b582fd09dd8a52628ea1336fa5d34d042/output/AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/fellipe/.android/build-cache/0693c6102f28725da68b7728842b44de2bc89214/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /home/fellipe/.android/build-cache/14b6a9d68d865c08a73c09616213c44990020e02/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /home/fellipe/.android/build-cache/2c0c8dd0c9595b4dca6e857fbd24bb3a87474b9f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/fellipe/.android/build-cache/e4e5f3db9177e9d978411daae65631d132256a43/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/fellipe/.android/build-cache/1fa9ad3b839adc92168cf57e35c7ca711bb31d19/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/fellipe/.android/build-cache/4bd9de9b4494b7298c400d9359e7a4b85e50302a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/fellipe/.android/build-cache/3bdabc07ff5829da587deee917f1cdad242ee34b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/fellipe/.android/build-cache/1b327354e2eb1d2d0ead9fca13599b5faf0eaaca/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /home/fellipe/.android/build-cache/e0005e0c9feeee041b6126368b571ee5412faf49/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:16:9-35
+		ADDED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/.android/build-cache/c23f820b582fd09dd8a52628ea1336fa5d34d042/output/AndroidManifest.xml:16:9-35
 	android:allowBackup
 		ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:16:9-35
 	android:icon
@@ -80,20 +80,20 @@ ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManif
 		ADDED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml:25:13-93
 uses-sdk
 INJECTED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/AndroidAudioRecorder/lib/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:20:5-44
-MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.cleveroad:audiovisualization:1.0.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.cleveroad/audiovisualization/1.0.0/AndroidManifest.xml:8:5-10:41
+MERGED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/.android/build-cache/c23f820b582fd09dd8a52628ea1336fa5d34d042/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cleveroad:audiovisualization:1.0.0] /home/fellipe/.android/build-cache/5e3260012bfab3ab45752948ec4fa868623f7066/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:24.2.1] /home/fellipe/.android/build-cache/0693c6102f28725da68b7728842b44de2bc89214/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] /home/fellipe/.android/build-cache/14b6a9d68d865c08a73c09616213c44990020e02/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] /home/fellipe/.android/build-cache/2c0c8dd0c9595b4dca6e857fbd24bb3a87474b9f/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/fellipe/.android/build-cache/e4e5f3db9177e9d978411daae65631d132256a43/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/fellipe/.android/build-cache/1fa9ad3b839adc92168cf57e35c7ca711bb31d19/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/fellipe/.android/build-cache/4bd9de9b4494b7298c400d9359e7a4b85e50302a/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/fellipe/.android/build-cache/3bdabc07ff5829da587deee917f1cdad242ee34b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/fellipe/.android/build-cache/1b327354e2eb1d2d0ead9fca13599b5faf0eaaca/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.1] /home/fellipe/.android/build-cache/e0005e0c9feeee041b6126368b571ee5412faf49/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /home/fellipe/.android/build-cache/0693c6102f28725da68b7728842b44de2bc89214/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml
 		INJECTED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml
@@ -101,14 +101,14 @@ MERGED from [com.cleveroad:audiovisualization:1.0.0] /home/fellipe/Projetos/Andr
 		INJECTED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml
 		INJECTED from /home/fellipe/Projetos/AndroidAudioRecorder/app/src/main/AndroidManifest.xml
 activity#cafe.adriel.androidaudiorecorder.AudioRecorderActivity
-ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/AndroidAudioRecorder/lib/unspecified/AndroidManifest.xml:12:9-15:54
+ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/bundles/default/AndroidManifest.xml:12:9-15:54
 	android:screenOrientation
-		ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/AndroidAudioRecorder/lib/unspecified/AndroidManifest.xml:14:13-49
+		ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/bundles/default/AndroidManifest.xml:14:13-49
 	android:theme
-		ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/AndroidAudioRecorder/lib/unspecified/AndroidManifest.xml:15:13-51
+		ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/bundles/default/AndroidManifest.xml:15:13-51
 	android:name
-		ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/AndroidAudioRecorder/lib/unspecified/AndroidManifest.xml:13:13-82
+		ADDED from [AndroidAudioRecorder:lib:unspecified] /home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/bundles/default/AndroidManifest.xml:13:13-82
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:11:5-80
+ADDED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/.android/build-cache/c23f820b582fd09dd8a52628ea1336fa5d34d042/output/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/Projetos/AndroidAudioRecorder/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/AndroidManifest.xml:11:22-77
+		ADDED from [com.kailashdabhi:om-recorder:1.1.0] /home/fellipe/.android/build-cache/c23f820b582fd09dd8a52628ea1336fa5d34d042/output/AndroidManifest.xml:11:22-77

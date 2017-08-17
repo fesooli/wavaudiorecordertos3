@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Optional
                 .setSource(AudioSource.MIC)
-                .setChannel(AudioChannel.STEREO)
+                .setChannel(AudioChannel.MONO)
                 .setSampleRate(AudioSampleRate.HZ_48000)
                 .setAutoStart(false)
                 .setKeepDisplayOn(true)

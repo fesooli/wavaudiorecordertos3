@@ -1,10 +1,10 @@
 [
     {
         "merged": "/home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "source": "/home/fellipe/.android/build-cache/0693c6102f28725da68b7728842b44de2bc89214/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/fellipe/Projetos/AndroidAudioRecorder/lib/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "source": "/home/fellipe/.android/build-cache/0693c6102f28725da68b7728842b44de2bc89214/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

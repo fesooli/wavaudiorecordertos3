@@ -1,1 +1,0 @@
-string av_app_name

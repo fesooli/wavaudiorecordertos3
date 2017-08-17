@@ -317,9 +317,24 @@ public class AudioRecorderActivity extends AppCompatActivity
         }
 
         stopTimer();
+    }
+
+    private void stopRecording(){
+        visualizerView.release();
+        if(visualizerHandler != null) {
+            visualizerHandler.stop();
+        }
+
+        recorderSecondsElapsed = 0;
+        if (recorder != null) {
+            recorder.stopRecording();
+            recorder = null;
+        }
+
+        stopTimer();
 
         TransferUtility transferUtility = Util.getTransferUtility(getApplicationContext());
-        TransferObserver observer = transferUtility.upload(Constants.BUCKET_NAME, filePath, new File(filePath));
+        TransferObserver observer = transferUtility.upload(Constants.BUCKET_NAME, "recording.wav", new File(filePath));
 
         observer.setTransferListener(new TransferListener() {
             @Override
@@ -339,21 +354,6 @@ public class AudioRecorderActivity extends AppCompatActivity
         });
         Log.d("Estado", observer.getState().name());
         Toast.makeText(this, "Fez o upload para o S3", Toast.LENGTH_SHORT).show();
-    }
-
-    private void stopRecording(){
-        visualizerView.release();
-        if(visualizerHandler != null) {
-            visualizerHandler.stop();
-        }
-
-        recorderSecondsElapsed = 0;
-        if (recorder != null) {
-            recorder.stopRecording();
-            recorder = null;
-        }
-
-        stopTimer();
     }
 
     private void startPlaying(){
