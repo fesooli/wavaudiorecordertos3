@@ -22,4 +22,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.kailashdabhi:om-recorder:1.1.0'
     compile 'com.cleveroad:audiovisualization:1.0.0'
+    compile 'com.amazonaws:aws-android-sdk-core:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-s3:2.2.+'
+    compile 'com.amazonaws:aws-android-sdk-ddb:2.2.+'
 }

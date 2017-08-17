@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,7 +15,12 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.amazonaws.mobileconnectors.s3.transferutility.TransferListener;
+import com.amazonaws.mobileconnectors.s3.transferutility.TransferObserver;
+import com.amazonaws.mobileconnectors.s3.transferutility.TransferState;
+import com.amazonaws.mobileconnectors.s3.transferutility.TransferUtility;
 import com.cleveroad.audiovisualization.DbmHandler;
 import com.cleveroad.audiovisualization.GLAudioVisualizationView;
 
@@ -25,6 +31,7 @@ import java.util.TimerTask;
 import cafe.adriel.androidaudiorecorder.model.AudioChannel;
 import cafe.adriel.androidaudiorecorder.model.AudioSampleRate;
 import cafe.adriel.androidaudiorecorder.model.AudioSource;
+import cafe.adriel.androidaudiorecorder.model.Constants;
 import omrecorder.AudioChunk;
 import omrecorder.OmRecorder;
 import omrecorder.PullTransport;
@@ -310,6 +317,28 @@ public class AudioRecorderActivity extends AppCompatActivity
         }
 
         stopTimer();
+
+        TransferUtility transferUtility = Util.getTransferUtility(getApplicationContext());
+        TransferObserver observer = transferUtility.upload(Constants.BUCKET_NAME, filePath, new File(filePath));
+
+        observer.setTransferListener(new TransferListener() {
+            @Override
+            public void onStateChanged(int id, TransferState state) {
+                Log.d("Estado", state.name());
+            }
+
+            @Override
+            public void onProgressChanged(int id, long bytesCurrent, long bytesTotal) {
+                Log.d("Estado", String.valueOf(bytesTotal));
+            }
+
+            @Override
+            public void onError(int id, Exception ex) {
+                Log.d("Estado", ex.getMessage());
+            }
+        });
+        Log.d("Estado", observer.getState().name());
+        Toast.makeText(this, "Fez o upload para o S3", Toast.LENGTH_SHORT).show();
     }
 
     private void stopRecording(){
